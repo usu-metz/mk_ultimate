@@ -80,3 +80,15 @@
 - **Lancers hebdomadaires** : attribution d’un ou plusieurs lancers, stockables avec limites.
 
 Ces métriques servent de base et pourront être ajustées après des tests utilisateurs.
+
+---
+
+## 5) États de jeu (statuts)
+
+Les parties suivent un statut simple pour le MVP :
+
+- **waiting** : partie créée, en attente de joueurs et de configuration finale.
+- **in_progress** : partie démarrée, les tours et mouvements sont enregistrés.
+- **finished** : partie terminée, classement figé et logs consultables.
+
+Ces statuts sont alignés avec le champ `games.status` du schéma SQL.
