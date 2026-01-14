@@ -1,0 +1,20 @@
+{
+	"name": "Role Playing Smash",
+	"short_name": "RPS",
+	"start_url": "./index.php",
+	"display": "standalone",
+	"background_color": "rgb(20,20,40)",
+	"theme_color": "rgb(30,30,60)",
+	"icons": [
+		{
+			"src": "img/icon-192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "img/icon-512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}
